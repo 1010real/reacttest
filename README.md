@@ -2,48 +2,48 @@
 
 ### 1. nodeをインストール
 
-下記サイトから
+公式サイトから
 [https://nodejs.org/](https://nodejs.org/)
 
 #### 確認
 
 ```
-% node -v
-% v0.12.2
-% npm -v
-% 2.7.4 
+node -v
+v0.12.2
+npm -v
+2.7.4 
 ```
 
-### 1. gulpをインストール
+### 2. gulpをインストール
 
 #### インストール
 ```
-% npm install -g gulp
+npm install -g gulp
 ```
 
 #### 確認
 
 ```
-% gulp -v
-% [21:34:49] CLI version 3.8.11
+gulp -v
+[21:34:49] CLI version 3.8.11
 ```
 
-### 1. リポジトリをclone
+### 3. リポジトリをclone
 
 ```
-% git clone git@github.com:1010real/reacttest.git
+git clone git@github.com:1010real/reacttest.git
 or 
-% git clone https://github.com/1010real/reacttest.git
+git clone https://github.com/1010real/reacttest.git
 ```
 
-### 1. 必要なモジュールをインストール
+### 4. 必要なモジュールをインストール
 
 ```
-% cd reacttest
+cd reacttest
 npm install
 ```
 
-### 1. webServer立ち上げ&監視
+### 5. webServer立ち上げ&監視
 
 ```
 gulp watch
