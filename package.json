@@ -1,0 +1,22 @@
+{
+  "name": "reacttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.1",
+    "gulp-webpack": "^1.4.0",
+    "jsx-loader": "^0.13.2",
+    "rimraf": "^2.3.4"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
