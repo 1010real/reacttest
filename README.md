@@ -35,6 +35,7 @@ git clone git@github.com:1010real/reacttest.git
 or 
 git clone https://github.com/1010real/reacttest.git
 ```
+※githubを既に使っていて、githubサーバに既にログイン出来る人は上
 
 ### 4. 必要なモジュールをインストール
 
@@ -43,9 +44,16 @@ cd reacttest
 npm install
 ```
 
-### 5. webServer立ち上げ&監視
+### 5. 初期build
+
+```
+gulp build
+```
+
+### 6. webServer立ち上げ&監視(確認)
 
 ```
 gulp watch
 ```
 
+「not clicked」 と表示され、クリックしたら「clicked」と表示が変わればとりあえず動いてます。
