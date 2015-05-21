@@ -35,7 +35,7 @@ git clone git@github.com:1010real/reacttest.git
 or 
 git clone https://github.com/1010real/reacttest.git
 ```
-※githubを既に使っていて、githubサーバに既にログイン出来る人は上
+※githubを既に使っていて、githubサーバにログイン出来る人は上
 
 ### 4. 必要なモジュールをインストール
 
